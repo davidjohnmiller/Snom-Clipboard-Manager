@@ -201,6 +201,7 @@
       <LastGenOutput>MessageBoxMessages.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\UILabels.en.resx" />
     <EmbeddedResource Include="Resources\UILabels.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>UILabels.Designer.cs</LastGenOutput>
