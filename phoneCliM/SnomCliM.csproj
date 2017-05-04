@@ -101,6 +101,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>MessageBoxMessages.resx</DependentUpon>
     </Compile>
+    <Compile Include="Resources\MessageBoxMessages.en.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MessageBoxMessages.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\UILabels.en.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UILabels.en.resx</DependentUpon>
+    </Compile>
     <Compile Include="UI\CallMessageBox.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -196,12 +206,19 @@
       <LastGenOutput>LogMessages.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MessageBoxMessages.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MessageBoxMessages.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resources\MessageBoxMessages.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>MessageBoxMessages.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\UILabels.en.resx" />
+    <EmbeddedResource Include="Resources\UILabels.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UILabels.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resources\UILabels.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>UILabels.Designer.cs</LastGenOutput>
